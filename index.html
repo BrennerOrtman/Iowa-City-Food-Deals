@@ -1,185 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>SquadUp Gaming | Multiplayer PC Games With Friends</title>
+<title>Best Places for Food & Drink in Iowa City</title>
 
-<meta name="description" content="Discover multiplayer PC games to play with friends. SquadUp Gaming helps you find popular games, free games, and PC gaming platforms.">
+<meta name="description" content="Explore the best types of restaurants and dining experiences in Iowa City, including pizza, burgers, tacos, and casual dining.">
 
 <style>
-
-* {
-    box-sizing: border-box;
-}
-
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #10121c;
-    color: #f5f5f5;
-    line-height: 1.7;
+    background: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
 }
 
 .notice {
-    background-color: #25283b;
+    background: #eee;
     text-align: center;
-    padding: 12px 20px;
+    padding: 12px;
     font-size: 13px;
 }
 
 header {
-    background-color: #191c2b;
+    background: #111;
+    color: #ffcd00;
     text-align: center;
-    padding: 30px 20px;
-}
-
-header h1 {
-    color: #a78bfa;
-    font-size: 36px;
-    margin: 0;
+    padding: 35px 20px;
 }
 
 header p {
-    color: #c4c4d4;
-    margin: 5px;
+    color: white;
 }
 
 nav {
-    background-color: #25283b;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
+    background: #ffcd00;
+    text-align: center;
     padding: 15px;
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 6px;
     font-weight: bold;
-}
-
-nav a:hover,
-nav a.active {
-    background-color: #7c3aed;
-}
-
-.hero {
-    text-align: center;
-    padding: 90px 20px;
-    background: linear-gradient(135deg, #302052, #141725);
-}
-
-.hero h2 {
-    font-size: 42px;
-    margin-bottom: 15px;
-    color: white;
-}
-
-.hero p {
-    max-width: 700px;
-    margin: 0 auto 30px;
-    color: #d1d1df;
-    font-size: 18px;
-}
-
-.button {
+    margin: 10px;
     display: inline-block;
-    background-color: #7c3aed;
-    color: white;
-    padding: 14px 28px;
-    border-radius: 7px;
-    text-decoration: none;
-    font-weight: bold;
 }
 
-.button:hover {
-    background-color: #6d28d9;
+nav a:hover {
+    text-decoration: underline;
 }
 
-main {
-    max-width: 1100px;
+.container {
+    max-width: 1000px;
     margin: auto;
-    padding: 50px 20px;
+    padding: 30px 20px;
 }
 
-h2 {
-    color: #c4b5fd;
+.restaurant {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.introduction {
-    text-align: center;
-    margin-bottom: 50px;
+.restaurant h2 {
+    color: #111;
 }
 
-.introduction p {
-    max-width: 800px;
-    margin: auto;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    margin-top: 30px;
-}
-
-.card {
-    background-color: #1e2233;
-    padding: 30px;
-    border-radius: 12px;
-    border: 1px solid #38334f;
-}
-
-.card h3 {
-    color: #c4b5fd;
-}
-
-.card a {
-    color: #a78bfa;
+.tag {
+    background: #ffcd00;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 5px;
     font-weight: bold;
-}
-
-.about {
-    background-color: #1e2233;
-    border-radius: 12px;
-    padding: 35px;
-    margin-top: 55px;
 }
 
 footer {
-    background-color: #191c2b;
+    background: #111;
+    color: white;
     text-align: center;
-    padding: 25px 20px;
-    color: #c4c4d4;
-    font-size: 13px;
+    padding: 25px;
 }
 
-@media (max-width: 600px) {
+footer a {
+    color: #ffcd00;
+}
 
-    .hero h2 {
-        font-size: 30px;
+@media(max-width:600px) {
+    nav a {
+        display: block;
+        margin: 8px;
     }
 
     header h1 {
-        font-size: 28px;
-    }
-
-    nav a {
-        font-size: 14px;
-        padding: 8px;
-    }
-
-    .hero {
-        padding: 60px 20px;
+        font-size: 27px;
     }
 }
-
 </style>
 </head>
 
@@ -190,187 +110,182 @@ This is a fictional website created for educational purposes as part of MKTG:440
 </div>
 
 <header>
-<h1>SquadUp Gaming</h1>
-<p>Find Your Squad. Find Your Game.</p>
+<h1>Best Places for Food & Drink in Iowa City</h1>
+<p>Discover Great Dining Experiences</p>
 </header>
 
-<nav aria-label="Main navigation">
-<a href="index.html" class="active" aria-current="page">Home</a>
-<a href="platforms.html">Download Platforms</a>
-<a href="top-games.html">Top Multiplayer Games</a>
-<a href="free-games.html">Free PC Games</a>
+<nav>
+<a href="index.html">Home</a>
+<a href="best-places.html">Best Food & Drink</a>
+<a href="daily-deals.html">Daily Deals</a>
+<a href="cheap-eats.html">Cheap Student Eats</a>
 </nav>
 
-<section class="hero">
+<main class="container">
 
-<h2>Gaming Is Better With Friends</h2>
+<h2>Where Should You Eat in Iowa City?</h2>
 
 <p>
-The best gaming memories aren't always about winning.
-They're about the late-night laughs, unforgettable
-moments, and adventures you share with your friends.
+Iowa City offers a variety of dining experiences,
+from quick meals between classes to relaxed dinners
+with friends. Our fictional restaurant guide highlights
+five unique dining concepts that represent the types
+of food and drink experiences available in a college town.
+</p>
+
+<article class="restaurant">
+
+<span class="tag">Best for Pizza</span>
+
+<h2>1. Hawkeye Pizza House</h2>
+
+<p>
+Hawkeye Pizza House is a fictional restaurant
+specializing in handmade pizzas, cheesy breadsticks,
+and affordable meals for groups.
 </p>
 
 <p>
-SquadUp Gaming helps you discover your next
-favorite multiplayer PC game.
+Its casual atmosphere makes it an ideal destination
+for students gathering to watch sports or enjoy
+a meal with friends.
 </p>
 
-<a href="#explore" class="button">
-Explore Our Gaming Guides
-</a>
-
-</section>
-
-<main>
-
-<section class="introduction">
-
-<h2>Welcome to SquadUp Gaming</h2>
-
-<p>
-Have you ever spent more time deciding what game
-to play than actually playing it?
-</p>
-
-<p>
-We created SquadUp Gaming to solve that problem.
-Our website helps PC gamers find exciting multiplayer
-games, compare gaming options, and discover
-new experiences to enjoy with friends.
-</p>
-
-<p>
-Whether you're an experienced gamer or just
-getting started, our guides make choosing
-your next game easier.
-</p>
-
-</section>
-
-<section id="explore">
-
-<h2>Explore Our Gaming Guides</h2>
-
-<p>
-Not sure where to start? Choose one of our
-three guides below.
-</p>
-
-<div class="cards">
-
-<article class="card">
-
-<h3>PC Gaming Platforms</h3>
-
-<p>
-New to PC gaming? Learn where to download
-games and which gaming launchers you
-may need to get started.
-</p>
-
-<p>
-Explore popular platforms including
-Steam, Epic Games Store, and Xbox.
-</p>
-
-<a href="platforms.html">
-Explore Gaming Platforms →
-</a>
+<p><strong>Popular Menu Item:</strong> Large Pepperoni Pizza</p>
+<p><strong>Estimated Price:</strong> $14</p>
+<p><strong>Best For:</strong> Group Dining</p>
 
 </article>
 
-<article class="card">
+<article class="restaurant">
 
-<h3>Best Multiplayer PC Games</h3>
+<span class="tag">Best for Burgers</span>
+
+<h2>2. Downtown Burger Company</h2>
 
 <p>
-Looking for your group's next obsession?
-Discover multiplayer games that offer
-competitive matches, cooperative adventures,
-and endless entertainment.
+Downtown Burger Company offers fictional
+made-to-order burgers, crispy fries,
+chicken sandwiches, and milkshakes.
 </p>
 
 <p>
-Find games that match your group's
-favorite gaming styles.
+The restaurant focuses on classic American
+comfort food served in a relaxed environment.
 </p>
 
-<a href="top-games.html">
-Discover Top Games →
-</a>
+<p><strong>Popular Menu Item:</strong> Classic Cheeseburger Combo</p>
+<p><strong>Estimated Price:</strong> $11</p>
+<p><strong>Best For:</strong> Casual Lunch</p>
 
 </article>
 
-<article class="card">
+<article class="restaurant">
 
-<h3>Free Multiplayer PC Games</h3>
+<span class="tag">Best for Tacos</span>
+
+<h2>3. Riverside Taco Kitchen</h2>
 
 <p>
-Gaming with friends doesn't have
-to be expensive.
+Riverside Taco Kitchen is a fictional Mexican-inspired
+restaurant featuring street tacos, burrito bowls,
+quesadillas, and freshly prepared salsa.
 </p>
 
 <p>
-Explore free-to-play PC games
-that offer exciting multiplayer
-experiences without requiring
-an upfront purchase.
+Customers can customize meals with different
+proteins, vegetables, and toppings.
 </p>
 
-<a href="free-games.html">
-Find Free Games →
-</a>
+<p><strong>Popular Menu Item:</strong> Three Street Tacos</p>
+<p><strong>Estimated Price:</strong> $9</p>
+<p><strong>Best For:</strong> Affordable Dinner</p>
 
 </article>
 
-</div>
+<article class="restaurant">
 
-</section>
+<span class="tag">Best for Breakfast</span>
 
-<section class="about">
-
-<h2>Our Story</h2>
+<h2>4. College Street Breakfast Club</h2>
 
 <p>
-SquadUp Gaming was imagined by three college
-friends: Tyler Brooks, Marcus Reed, and Jordan Ellis.
+College Street Breakfast Club serves fictional
+breakfast favorites including pancakes,
+breakfast sandwiches, omelets, and coffee.
 </p>
 
 <p>
-After years of playing multiplayer games together,
-they realized that choosing what to play was
-often the hardest part of gaming night.
+The restaurant provides a comfortable setting
+for weekend brunch or a quick breakfast
+before starting the day.
+</p>
+
+<p><strong>Popular Menu Item:</strong> Breakfast Sandwich & Coffee</p>
+<p><strong>Estimated Price:</strong> $8</p>
+<p><strong>Best For:</strong> Breakfast and Brunch</p>
+
+</article>
+
+<article class="restaurant">
+
+<span class="tag">Best for Food & Drinks</span>
+
+<h2>5. The Gold Standard Grill</h2>
+
+<p>
+The Gold Standard Grill is a fictional
+sports-themed restaurant featuring wings,
+sandwiches, appetizers, and a variety
+of nonalcoholic specialty drinks.
 </p>
 
 <p>
-Their idea was simple: create a place where
-gamers could quickly discover multiplayer
-games that fit their interests, budgets,
-and friend groups.
+Its lively atmosphere makes it a popular
+fictional gathering place for watching games
+and sharing appetizers with friends.
+</p>
+
+<p><strong>Popular Menu Item:</strong> Boneless Wings & Fries</p>
+<p><strong>Estimated Price:</strong> $12</p>
+<p><strong>Best For:</strong> Game-Day Dining</p>
+
+</article>
+
+<h2>How to Choose the Best Restaurant</h2>
+
+<p>
+When deciding where to eat, consider your budget,
+the type of food you're craving, and whether
+you're dining alone or with a group.
 </p>
 
 <p>
-Today, SquadUp Gaming represents that
-mission: bringing friends together
-through great gaming experiences.
+Students looking to save money should also
+explore our daily specials and affordable
+student meal recommendations.
 </p>
-
-<h2>Our Mission</h2>
 
 <p>
-To make multiplayer PC gaming more accessible,
-enjoyable, and social by helping friends
-discover games worth playing together.
+<a href="daily-deals.html">Explore Daily Food Deals</a>
 </p>
 
-</section>
+<p>
+<a href="cheap-eats.html">Find Cheap Student Meals</a>
+</p>
 
 </main>
 
 <footer>
 
-<p>© 2026 SquadUp Gaming | Find Your Squad. Find Your Game.</p>
+<p>© 2026 Iowa City Daily Deals</p>
+
+<p>
+<a href="index.html">Home</a> |
+<a href="best-places.html">Best Places</a> |
+<a href="daily-deals.html">Daily Deals</a> |
+<a href="cheap-eats.html">Cheap Eats</a>
+</p>
 
 <p>
 This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
