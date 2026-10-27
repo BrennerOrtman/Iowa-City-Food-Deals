@@ -1,368 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Where to Download PC Games | SquadUp Gaming</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+<title>SquadUp Gaming | Multiplayer PC Games With Friends</title>
 
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #10121c;
-            color: #f5f5f5;
-            line-height: 1.7;
-        }
+<meta name="description" content="Discover multiplayer PC games to play with friends. SquadUp Gaming helps you find popular games, free games, and PC gaming platforms.">
 
-        .notice {
-            background-color: #25283b;
-            text-align: center;
-            padding: 12px 20px;
-            font-size: 13px;
-        }
+<style>
 
-        header {
-            background-color: #191c2b;
-            text-align: center;
-            padding: 25px 20px;
-        }
+* {
+    box-sizing: border-box;
+}
 
-        header h1 {
-            color: #a78bfa;
-            margin: 0;
-        }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #10121c;
+    color: #f5f5f5;
+    line-height: 1.7;
+}
 
-        header p {
-            color: #c4c4d4;
-        }
+.notice {
+    background-color: #25283b;
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 13px;
+}
 
-        nav {
-            background-color: #25283b;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 12px;
-            padding: 15px;
-        }
+header {
+    background-color: #191c2b;
+    text-align: center;
+    padding: 30px 20px;
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 15px;
-            border-radius: 6px;
-            font-weight: bold;
-        }
+header h1 {
+    color: #a78bfa;
+    font-size: 36px;
+    margin: 0;
+}
 
-        nav a:hover,
-        nav a.active {
-            background-color: #7c3aed;
-        }
+header p {
+    color: #c4c4d4;
+    margin: 5px;
+}
 
-        main {
-            max-width: 1000px;
-            margin: auto;
-            padding: 45px 20px;
-        }
+nav {
+    background-color: #25283b;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 15px;
+}
 
-        h2, h3 {
-            color: #c4b5fd;
-        }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
 
-        .intro {
-            background-color: #1e2233;
-            padding: 30px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-        }
+nav a:hover,
+nav a.active {
+    background-color: #7c3aed;
+}
 
-        .platform {
-            background-color: #1e2233;
-            padding: 25px;
-            border-radius: 12px;
-            margin-bottom: 22px;
-            border-left: 5px solid #8b5cf6;
-        }
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #302052, #141725);
+}
 
-        .platform h3 {
-            margin-top: 0;
-        }
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: white;
+}
 
-        .tag {
-            display: inline-block;
-            background-color: #40315f;
-            color: #e9ddff;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 13px;
-            font-weight: bold;
-        }
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #d1d1df;
+    font-size: 18px;
+}
 
-        .tips {
-            background-color: #25283b;
-            padding: 25px;
-            border-radius: 12px;
-            margin-top: 35px;
-        }
+.button {
+    display: inline-block;
+    background-color: #7c3aed;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        a {
-            color: #c4b5fd;
-        }
+.button:hover {
+    background-color: #6d28d9;
+}
 
-        footer {
-            background-color: #191c2b;
-            text-align: center;
-            padding: 25px 20px;
-            color: #c4c4d4;
-            font-size: 13px;
-        }
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 20px;
+}
 
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 28px;
-            }
+h2 {
+    color: #c4b5fd;
+}
 
-            nav a {
-                font-size: 14px;
-                padding: 8px;
-            }
-        }
-    </style>
+.introduction {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.introduction p {
+    max-width: 800px;
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #1e2233;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #38334f;
+}
+
+.card h3 {
+    color: #c4b5fd;
+}
+
+.card a {
+    color: #a78bfa;
+    font-weight: bold;
+}
+
+.about {
+    background-color: #1e2233;
+    border-radius: 12px;
+    padding: 35px;
+    margin-top: 55px;
+}
+
+footer {
+    background-color: #191c2b;
+    text-align: center;
+    padding: 25px 20px;
+    color: #c4c4d4;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+}
+
+</style>
 </head>
 
 <body>
 
 <div class="notice">
-    This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
 </div>
 
 <header>
-    <h1>SquadUp Gaming</h1>
-    <p>Your Next Gaming Night Starts Here</p>
+<h1>SquadUp Gaming</h1>
+<p>Find Your Squad. Find Your Game.</p>
 </header>
 
 <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="platforms.html" class="active" aria-current="page">Download Platforms</a>
-    <a href="top-games.html">Top Multiplayer Games</a>
-    <a href="free-games.html">Free PC Games</a>
+<a href="index.html" class="active" aria-current="page">Home</a>
+<a href="platforms.html">Download Platforms</a>
+<a href="top-games.html">Top Multiplayer Games</a>
+<a href="free-games.html">Free PC Games</a>
 </nav>
+
+<section class="hero">
+
+<h2>Gaming Is Better With Friends</h2>
+
+<p>
+The best gaming memories aren't always about winning.
+They're about the late-night laughs, unforgettable
+moments, and adventures you share with your friends.
+</p>
+
+<p>
+SquadUp Gaming helps you discover your next
+favorite multiplayer PC game.
+</p>
+
+<a href="#explore" class="button">
+Explore Our Gaming Guides
+</a>
+
+</section>
 
 <main>
 
-    <section class="intro">
-        <h2>What Platforms Do You Need to Download PC Games?</h2>
+<section class="introduction">
 
-        <p>
-            Unlike gaming consoles, PC gaming does not
-            rely on a single digital storefront.
-            Different publishers distribute their
-            games through different platforms.
-        </p>
+<h2>Welcome to SquadUp Gaming</h2>
 
-        <p>
-            Fortunately, most PC gaming launchers
-            are free to download. You only pay
-            when purchasing games or optional
-            subscription services.
-        </p>
-    </section>
+<p>
+Have you ever spent more time deciding what game
+to play than actually playing it?
+</p>
 
-    <section>
+<p>
+We created SquadUp Gaming to solve that problem.
+Our website helps PC gamers find exciting multiplayer
+games, compare gaming options, and discover
+new experiences to enjoy with friends.
+</p>
 
-        <h2>Popular PC Gaming Platforms</h2>
+<p>
+Whether you're an experienced gamer or just
+getting started, our guides make choosing
+your next game easier.
+</p>
 
-        <article class="platform">
-            <h3>1. Steam</h3>
+</section>
 
-            <span class="tag">Best Starting Point</span>
+<section id="explore">
 
-            <p>
-                Steam is one of the most widely used
-                digital gaming platforms for PC.
-                It offers a massive selection of
-                games across nearly every genre.
-            </p>
+<h2>Explore Our Gaming Guides</h2>
 
-            <p>
-                Steam also includes friend lists,
-                community discussions, game reviews,
-                and multiplayer invitations.
-            </p>
+<p>
+Not sure where to start? Choose one of our
+three guides below.
+</p>
 
-            <p>
-                <strong>Popular multiplayer games:</strong>
-                Counter-Strike 2, Helldivers 2,
-                and Phasmophobia.
-            </p>
+<div class="cards">
 
-            <p>
-                <strong>Our recommendation:</strong>
-                Start with Steam if you are new
-                to PC gaming.
-            </p>
-        </article>
+<article class="card">
 
-        <article class="platform">
-            <h3>2. Epic Games Store</h3>
+<h3>PC Gaming Platforms</h3>
 
-            <span class="tag">Great for Free Games</span>
+<p>
+New to PC gaming? Learn where to download
+games and which gaming launchers you
+may need to get started.
+</p>
 
-            <p>
-                Epic Games Store is another major
-                platform for downloading PC games.
-                It features popular multiplayer
-                titles and regularly offers
-                promotional free games.
-            </p>
+<p>
+Explore popular platforms including
+Steam, Epic Games Store, and Xbox.
+</p>
 
-            <p>
-                <strong>Popular multiplayer games:</strong>
-                Fortnite and Rocket League.
-            </p>
+<a href="platforms.html">
+Explore Gaming Platforms →
+</a>
 
-            <p>
-                <strong>Our recommendation:</strong>
-                Check Epic Games Store regularly
-                for free game promotions.
-            </p>
-        </article>
+</article>
 
-        <article class="platform">
-            <h3>3. Xbox App and PC Game Pass</h3>
+<article class="card">
 
-            <span class="tag">Subscription Option</span>
+<h3>Best Multiplayer PC Games</h3>
 
-            <p>
-                The Xbox app allows Windows users
-                to purchase, download, and manage
-                supported PC games.
-            </p>
+<p>
+Looking for your group's next obsession?
+Discover multiplayer games that offer
+competitive matches, cooperative adventures,
+and endless entertainment.
+</p>
 
-            <p>
-                PC Game Pass is an optional paid
-                subscription that provides access
-                to a rotating library of games.
-            </p>
+<p>
+Find games that match your group's
+favorite gaming styles.
+</p>
 
-            <p>
-                <strong>Popular multiplayer games:</strong>
-                Minecraft and Sea of Thieves.
-            </p>
+<a href="top-games.html">
+Discover Top Games →
+</a>
 
-            <p>
-                <strong>Our recommendation:</strong>
-                Consider a subscription if your
-                group enjoys trying several
-                different games each month.
-            </p>
-        </article>
+</article>
 
-        <article class="platform">
-            <h3>4. Battle.net</h3>
+<article class="card">
 
-            <span class="tag">Competitive Gaming</span>
+<h3>Free Multiplayer PC Games</h3>
 
-            <p>
-                Battle.net is Blizzard Entertainment's
-                gaming platform.
-                It allows players to download,
-                update, and launch supported
-                Blizzard games.
-            </p>
+<p>
+Gaming with friends doesn't have
+to be expensive.
+</p>
 
-            <p>
-                <strong>Popular multiplayer games:</strong>
-                Overwatch 2 and World of Warcraft.
-            </p>
+<p>
+Explore free-to-play PC games
+that offer exciting multiplayer
+experiences without requiring
+an upfront purchase.
+</p>
 
-            <p>
-                <strong>Our recommendation:</strong>
-                Install Battle.net if your friends
-                regularly play Blizzard titles.
-            </p>
-        </article>
+<a href="free-games.html">
+Find Free Games →
+</a>
 
-        <article class="platform">
-            <h3>5. EA App</h3>
+</article>
 
-            <span class="tag">Sports and Action Games</span>
+</div>
 
-            <p>
-                The EA app is Electronic Arts'
-                PC gaming platform.
-                It provides access to supported
-                EA games, downloads, updates,
-                and account features.
-            </p>
+</section>
 
-            <p>
-                <strong>Popular multiplayer games:</strong>
-                EA SPORTS FC and Battlefield.
-            </p>
+<section class="about">
 
-            <p>
-                <strong>Our recommendation:</strong>
-                Use the EA app when playing
-                supported Electronic Arts titles.
-            </p>
-        </article>
+<h2>Our Story</h2>
 
-    </section>
+<p>
+SquadUp Gaming was imagined by three college
+friends: Tyler Brooks, Marcus Reed, and Jordan Ellis.
+</p>
 
-    <section class="tips">
+<p>
+After years of playing multiplayer games together,
+they realized that choosing what to play was
+often the hardest part of gaming night.
+</p>
 
-        <h2>Tips for New PC Gamers</h2>
+<p>
+Their idea was simple: create a place where
+gamers could quickly discover multiplayer
+games that fit their interests, budgets,
+and friend groups.
+</p>
 
-        <ul>
-            <li>
-                Start with Steam before installing
-                every available launcher.
-            </li>
+<p>
+Today, SquadUp Gaming represents that
+mission: bringing friends together
+through great gaming experiences.
+</p>
 
-            <li>
-                Check whether a game supports
-                cross-platform multiplayer.
-            </li>
+<h2>Our Mission</h2>
 
-            <li>
-                Compare prices before purchasing
-                games on different storefronts.
-            </li>
+<p>
+To make multiplayer PC gaming more accessible,
+enjoyable, and social by helping friends
+discover games worth playing together.
+</p>
 
-            <li>
-                Review your computer's system
-                requirements before downloading.
-            </li>
-
-            <li>
-                Enable account security features
-                such as two-factor authentication.
-            </li>
-        </ul>
-
-        <h3>Ready to Find Something to Play?</h3>
-
-        <p>
-            Explore our recommendations for
-            <a href="top-games.html">top multiplayer games</a>
-            or browse
-            <a href="free-games.html">free multiplayer PC games</a>.
-        </p>
-
-    </section>
+</section>
 
 </main>
 
 <footer>
-    <p>© 2026 SquadUp Gaming | Find Your Squad. Find Your Game.</p>
 
-    <p>
-        This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
-    </p>
+<p>© 2026 SquadUp Gaming | Find Your Squad. Find Your Game.</p>
+
+<p>
+This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+</p>
+
 </footer>
 
 </body>
