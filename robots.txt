@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brennerortman.github.io/Video-Games-With-Friends/sitemap.xml
+Sitemap: https://brennerortman.github.io/Iowa-City-Daily-Deals/sitemap.xml
