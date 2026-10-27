@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://brennerortman.github.io/Video-Games-With-Friends/sitemap.xml
