@@ -1,4 +1,6 @@
+
 User-agent: *
 Allow: /
 
-Sitemap: https://brennerortman.github.io/Iowa-City-Daily-Deals/sitemap.xml
+Sitemap: https://brennerortman.github.io/Iowa-City-Food-Deals/sitemap.xml
+
