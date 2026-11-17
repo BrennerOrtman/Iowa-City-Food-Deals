@@ -1,21 +1,16 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <url>
-        <loc>https://brennerortman.github.io/Iowa-City-Daily-Deals/index.html</loc>
-    </url>
-
-    <url>
-        <loc>https://brennerortman.github.io/Iowa-City-Daily-Deals/best-places.html</loc>
-    </url>
-
-    <url>
-        <loc>https://brennerortman.github.io/Iowa-City-Daily-Deals/daily-deals.html</loc>
-    </url>
-
-    <url>
-        <loc>https://brennerortman.github.io/Iowa-City-Daily-Deals/cheap-eats.html</loc>
-    </url>
-
+  <url>
+    <loc>https://brennerortman.github.io/Iowa-City-Food-Deals/index.html</loc>
+  </url>
+  <url>
+    <loc>https://brennerortman.github.io/Iowa-City-Food-Deals/best-places.html</loc>
+  </url>
+  <url>
+    <loc>https://brennerortman.github.io/Iowa-City-Food-Deals/daily-deals.html</loc>
+  </url>
+  <url>
+    <loc>https://brennerortman.github.io/Iowa-City-Food-Deals/cheap-eats.html</loc>
+  </url>
 </urlset>
